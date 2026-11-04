@@ -2,11 +2,6 @@
 <% layout("/layouts/boilerplate") %>
 
   
-    <!-- <h3>All Listings</h3> -->
-    <!-- <form method="GET" action="/listings/new">
-      <button>Create New Listing</button>
-    </form> -->
-
     <style>
          #filters {
           display: flex;
@@ -94,6 +89,10 @@
       </div>
 
     </div>
+
+    <form method="GET" action="/listings/new" class="my-4">
+      <button type="submit" class="btn btn-dark">Add listing</button>
+    </form>
 
     <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
 
